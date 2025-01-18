@@ -14,11 +14,11 @@
 		<div id="search">
 			<input type="text"  placeholder="search name" id="search-input" />
 			<div>
-				<button class="filter">All</button>
-				<button class="filter">Tech</button>
-				<button class="filter">Clothing</button>
-				<button class="filter">Health</button>
-			</div>
+				<button class="filter selected" data-filter="all">All</button>
+				<button class="filter" data-filter="tech">Tech</button>
+				<button class="filter" data-filter="clothing">Clothing</button>
+				<button class="filter" data-filter="health">Health</button>
+			</div id="search-price">
 			<input placeholder="search price"  type="number"/>
 			<button>Search</button>
 		</div>
@@ -35,7 +35,7 @@
 				<span>$ 199</span>
 			</div>
 
-			<div class="product-item" data-category="tech">
+			<div class="product-item" data-category="tech" >
 				<img src="./img/watch.png" />
 				<p>Apple Watch</p>
 				<span>$ 399</span>
@@ -47,7 +47,7 @@
 				<span>$ 139</span>
 			</div>
 
-			<div class="product-item" data-category="clothing">
+			<div class="product-item" data-category="clothing" >
 				<img src="./img/jacket.png" />
 				<p>Boy's Jacket</p>
 				<span>$ 169</span>
@@ -65,13 +65,13 @@
 				<span>$ 299</span>
 			</div>
 
-			<div class="product-item" data-category="health">
+			<div class="product-item" data-category="health" >
 				<img src="./img/vitamin.png" />
 				<p>Vitamin E</p>
 				<span>$ 39</span>
 			</div>
 
-			<div class="product-item" data-category="health">
+			<div class="product-item" data-category="health" >
 				<img src="./img/cream.png" />
 				<p>Cream</p>
 				<span>$ 39</span>
