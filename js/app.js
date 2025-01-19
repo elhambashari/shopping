@@ -1,8 +1,8 @@
 const searchInput = document.getElementById('search-input')
 const products = document.querySelectorAll('.product-item')
 const buttons = document.querySelectorAll('.filter')
-//const priceDiv = document.getElementById('search-price')
-//const priceButton = priceDiv.querySelector('button')
+//const priceButton = document.getElementById('search-price') .querySelector('button')
+
 
 
 
@@ -81,7 +81,7 @@ buttons.forEach(button =>{
 
 
 searchInput.addEventListener('keyup' ,searchHandler);
-priceButton.addEventListener('click' , searchPriceHandler)
+//priceButton.addEventListener('click' , searchPriceHandler)
 
 
 
